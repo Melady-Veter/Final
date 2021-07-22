@@ -1,0 +1,71 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* hidden by default */
+.mycontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.collapsible::after {
+
+	content: "\f067";
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	font-family: "Font Awesome 5 Free";
+	display: block;
+}
+
+.fa-times {
+	margin: 10px 650px;
+}
+
+.fa-times:hover {
+	cursor: pointer;
+}
+
+.list {
+    border: none;
+}
